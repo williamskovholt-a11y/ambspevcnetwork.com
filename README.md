@@ -1,209 +1,124 @@
 # ambspevcnetwork.com
 Building a website meant to connect bright Finance students with working professionals
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>ambspevcnetwork</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="bg-orbit"></div>
+---
+title: ambspevcnetwork
+---
 
-  <header class="site-header">
-    <div class="container nav-bar">
-      <div class="logo-mark">
-        <span class="logo-dot"></span>
-        <span class="logo-text">ambspevcnetwork</span>
-      </div>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#focus">Focus</a>
-        <a href="#members">Members</a>
-        <a href="#contact" class="nav-cta">Join</a>
-      </nav>
-    </div>
-  </header>
+<!-- Simple center header -->
+<p align="center">
+  <strong style="font-size: 26px;">ambspevcnetwork</strong><br>
+  <span style="color:#6b7280;">Alternative Markets • Buy‑Side • Private Equity • VC</span>
+</p>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy glass">
-          <p class="eyebrow">Alternative Markets • Buy‑Side • Private Equity • VC</p>
-          <h1>Where ambitious finance talent meets the private capital ecosystem.</h1>
-          <p class="hero-sub">
-            ambspevcnetwork is a curated community for students and young professionals
-            serious about alternatives, special situations, buy‑side roles and venture.
-          </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn btn-primary">Request Access</a>
-            <a href="#about" class="btn btn-ghost">Learn more</a>
-          </div>
-          <div class="hero-meta">
-            <div>
-              <span class="meta-label">Members</span>
-              <span class="meta-value">50+</span>
-            </div>
-            <div>
-              <span class="meta-label">Firms engaged</span>
-              <span class="meta-value">IB • PE • VC • HF</span>
-            </div>
-            <div>
-              <span class="meta-label">Geography</span>
-              <span class="meta-value">UK & Europe</span>
-            </div>
-          </div>
-        </div>
+---
 
-        <div class="hero-panel glass">
-          <h2>Deal‑flow & Learning Hub</h2>
-          <ul class="stat-list">
-            <li>
-              <span class="stat-label">Opportunities board</span>
-              <span class="stat-value">Off‑cycle • Summer • FT</span>
-            </li>
-            <li>
-              <span class="stat-label">Insight sessions</span>
-              <span class="stat-value">PE, VC, Credit, Infra</span>
-            </li>
-            <li>
-              <span class="stat-label">Technical practice</span>
-              <span class="stat-value">LBOs • Cases • Modelling</span>
-            </li>
-          </ul>
-          <p class="hero-note">
-            Built by candidates who have been through the grind — for people who
-            want to outperform the market, not just “break in”.
-          </p>
-        </div>
-      </div>
-    </section>
+## Where ambitious finance talent meets private capital
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container section-grid">
-        <div>
-          <h2>What is ambspevcnetwork?</h2>
-          <p>
-            A tight, invite‑only network connecting high‑intent students and early‑career
-            professionals with the buy‑side, alternative credit, and venture ecosystem.
-          </p>
-          <p>
-            We blend structured learning, peer‑to‑peer accountability, and direct firm
-            interactions so members compound their edge across recruiting cycles.
-          </p>
-        </div>
-        <div class="pill-grid">
-          <div class="pill glass">Closed‑door speaker events</div>
-          <div class="pill glass">Live technical & case prep</div>
-          <div class="pill glass">Sourcing & investment sprints</div>
-          <div class="pill glass">Deal & memo library</div>
-        </div>
-      </div>
-    </section>
+ambspevcnetwork is a curated community for students and young professionals
+serious about alternatives, special situations, buy‑side roles, and venture.
 
-    <!-- FOCUS AREAS -->
-    <section id="focus" class="section section-alt">
-      <div class="container">
-        <h2 class="section-title">Our focus areas</h2>
-        <div class="card-grid">
-          <article class="focus-card glass">
-            <h3>Private Equity & Special Situations</h3>
-            <p>
-              From vanilla buyouts to complex recapitalisations, we dissect real
-              deals, capital structures, and value‑creation plans.
-            </p>
-            <ul>
-              <li>LBO and returns modelling labs</li>
-              <li>IC‑style investment memos</li>
-              <li>Operator and sponsor roundtables</li>
-            </ul>
-          </article>
+We blend structured learning, peer‑to‑peer accountability, and direct firm
+interactions so members can compound their edge across recruiting cycles.
 
-          <article class="focus-card glass">
-            <h3>Venture & Growth Equity</h3>
-            <p>
-              We explore early‑stage and growth investing, from market mapping and
-              thesis building to term sheets and portfolio support.
-            </p>
-            <ul>
-              <li>Sector deep dives & sprints</li>
-              <li>Pitch, product, and moat analysis</li>
-              <li>Collaborations with funds & founders</li>
-            </ul>
-          </article>
+[Request access](#join) • [Learn more](#about)
 
-          <article class="focus-card glass">
-            <h3>Credit, Infra & Hybrids</h3>
-            <p>
-              For those drawn to downside protection and structured risk –
-              distressed, private credit, infrastructure, and beyond.
-            </p>
-            <ul>
-              <li>Case studies on complex capital stacks</li>
-              <li>Scenario & covenant analysis</li>
-              <li>Guest sessions with buy‑side teams</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+---
 
-    <!-- MEMBERS -->
-    <section id="members" class="section">
-      <div class="container">
-        <h2 class="section-title">Who is this for?</h2>
-        <div class="badge-row">
-          <span class="badge glass">MSc Finance & Economics</span>
-          <span class="badge glass">Investment Banking Analysts</span>
-          <span class="badge glass">Consultants moving buy‑side</span>
-          <span class="badge glass">VC / PE interns</span>
-        </div>
-        <p class="section-text">
-          Members typically have strong fundamentals, a clear interest in alternatives,
-          and are willing to contribute — whether through sourcing, content, or mentoring.
-        </p>
-      </div>
-    </section>
+## What is ambspevcnetwork? {#about}
 
-    <!-- CONTACT / JOIN -->
-    <section id="contact" class="section section-alt">
-      <div class="container join-grid">
-        <div>
-          <h2>Request an introduction</h2>
-          <p>
-            Share a few details and we’ll reach out with next steps. We prioritise
-            fit and motivation over perfect pedigrees.
-          </p>
-          <ul class="join-points">
-            <li>Short intro call or cohort‑style onboarding</li>
-            <li>Access to events, resources, and deal sprints</li>
-            <li>Opportunities to build and lead within the network</li>
-          </ul>
-        </div>
-        <form class="join-form glass">
-          <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your full name">
+We are an invite‑only network connecting high‑intent candidates with the buy‑side,
+alternative credit, and venture ecosystem.
 
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="you@university.ac.uk">
+- Closed‑door speaker events with investors and operators  
+- Live technical and case preparation (LBOs, valuation, market sizing)  
+- Sourcing and investment “sprints” around live themes  
+- A growing library of deals, memos, and technical resources  
 
-          <label for="background">Current role / programme</label>
-          <input id="background" type="text" placeholder="e.g. MSc Finance, IB Analyst, VC Intern">
+> Built by candidates who have been through the grind — for people who want to
+> outperform the market, not just “break in”.
 
-          <label for="interest">What are you most interested in?</label>
-          <textarea id="interest" rows="4"
-            placeholder="Briefly share your focus areas and what you’d like from the network."></textarea>
+---
 
-          <button type="submit" class="btn btn-primary btn-full">
-            Submit interest
-          </button>
-        </form>
-      </div>
-    </section>
-  </main>
+## Focus areas
+
+### Private equity & special situations
+
+From vanilla buyouts to complex recapitalisations, we dissect real deals,
+capital structures, and value‑creation plans.
+
+- LBO and returns modelling labs  
+- Investment‑committee‑style memo practice  
+- Operator and sponsor roundtables  
+
+### Venture & growth equity
+
+We explore early‑stage and growth investing, from market mapping and thesis
+building to term sheets and portfolio support.
+
+- Sector deep dives and sprint weeks  
+- Product, moat, and founder‑market‑fit analysis  
+- Collaborations with funds and founders  
+
+### Credit, infrastructure & hybrids
+
+For those drawn to downside protection and structured risk – distressed,
+private credit, infrastructure, and hybrid strategies.
+
+- Case studies on complex capital stacks  
+- Scenario, covenant, and downside analysis  
+- Guest sessions with buy‑side credit and infra teams  
+
+---
+
+## Who is this for?
+
+Typical members include:
+
+- MSc Finance / Economics / related quantitative programmes  
+- Investment banking analysts exploring buy‑side or special situations  
+- Strategy or management consultants moving into investing roles  
+- VC / PE / growth equity interns and analysts  
+
+Common threads: strong fundamentals, a clear interest in alternatives, and a
+willingness to contribute – whether through sourcing, content, or mentoring.
+
+---
+
+## What members get
+
+- Curated events with investors across PE, VC, credit, and infra  
+- A peer group that actually understands the technical grind  
+- A place to test and refine investment theses and cases  
+- Early looks at relevant roles and off‑cycle opportunities  
+
+---
+
+## Join ambspevcnetwork {#join}
+
+We keep the community intentionally small and focused.
+
+If you’re interested in joining:
+
+1. Send a short email titled **“ambspevcnetwork – introduction”**  
+2. Include:  
+   - Your current role / programme  
+   - Your main interest area (PE, VC, credit, infra, special sits, etc.)  
+   - What you would like to contribute and get out of the network  
+
+**Contact:** `your.email@domain.com`  
+(Replace this with your real address in the repository.)
+
+---
+
+## About this site
+
+This site is hosted for free using **GitHub Pages**.
+
+- Repository: `https://github.com/<your-username>/<your-repo>`  
+- Live site: `https://<your-username>.github.io/<your-repo>/`  
+
+Update any section above, commit the changes, and your finance site will
+automatically rebuild and deploy.
 
   <footer class="site-footer">
     <div class="container footer-inner">
